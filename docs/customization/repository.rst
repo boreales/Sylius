@@ -107,7 +107,7 @@ For example you can configure new route:
     path: /partial/products/by-on-hand
     methods: [GET]
     defaults:
-        _controller: sylius.controller.product:indexAction
+        _controller: sylius.controller.product::indexAction
         _sylius:
             template: '@SyliusShop/Product/_horizontalList.html.twig'
             repository:
